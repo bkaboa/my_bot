@@ -6,6 +6,6 @@ COPY . .
 ARG DISCORD_TOKEN
 ENV DISCORD_TOKEN=${DISCORD_TOKEN}
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirement.txt
 
 CMD ["python3", "client.py"]
